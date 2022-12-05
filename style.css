@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+  margin-top: 40px;
+}
+hr {
+  display: inline-block;
+
+  width: 300px;
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+
+  width: 1200px;
+  margin: 0 auto;
+
+  background-color: #ffffff;
+
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+}
+aside {
+  display: flex;
+  flex-direction: column;
+
+  width: 370px;
+
+  color: white;
+  background-color: #1e2939;
+}
+.photo {
+  width: 370px;
+  margin-top: 40px;
+}
+.aside-info {
+  margin: 51px 0 0 40px;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 0;
+
+  list-style-type: none;
+}
+.header-secondary-1 .contact-info-item {
+  margin-right: 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.telephone-link,
+.email-link,
+.year {
+  color: lightgrey;
+
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.list-secondary {
+  padding-left: 0;
+
+  color: #fb6d3a;
+  font-size: 14px;
+  line-height: 24px;
+
+  list-style-position: inside;
+}
+.list-secondary-item {
+  color: white;
+}
+.header-secondary-2 {
+  margin-top: 47px;
+}
+.header-secondary-3 {
+  margin-top: 44px;
+}
+.header-secondary-1 h2,
+.header-secondary-2 h2,
+.header-secondary-3 h2 {
+  margin: 0 0 8px 0;
+}
+main {
+  flex: 1;
+
+  padding: 102px 88px;
+}
+main h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+main h1 {
+  margin: 19px 0 24px 0;
+}
+
+.main-info {
+  width: 400px;
+  margin-bottom: 40px;
+}
+.job-tittle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+.job-tittle-2 {
+  margin: 10px 0 10px 0;
+}
+.my-name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+}
+.description {
+  font-size: 17px;
+  font-weight: 600;
+  color: #595959;
+}
+.description.star {
+  padding: 10px;
+
+  color: black;
+  font-size: 18px;
+  font-size: 800;
+
+  box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.4);
+}
+.project-info {
+  width: 485px;
+  margin-bottom: 10px;
+}
+.tittle-tier1 {
+  margin-top: 15px;
+  margin-bottom: 12px;
+
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.tittle-tier1.margin-change {
+  margin-bottom: 0;
+}
+.list-primary-project {
+  padding: 0;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+
+  list-style-position: inside;
+}
+.list-primary-project a {
+  margin: 0;
+
+  color: #595959;
+  font-weight: 600;
+  line-height: 24px;
+
+  text-decoration: none;
+}
+.list-primary-project li {
+  color: #595959;
+}
+.list-primary-project .abc::before {
+  content: "[";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.list-primary-project .abc::after {
+  content: "]";
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.work-info {
+  width: 525px;
+  margin-bottom: 16px;
+}
+.work-info-b {
+  margin-bottom: 20px;
+}
+.work-info-c {
+  margin-bottom: 43px;
+}
+.list-primary {
+  padding: 0;
+  margin-top: 8px;
+
+  color: #595959;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+
+  list-style-position: inside;
+}
+.list-primary li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.job-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.orange-item {
+  color: #fb6d3a;
+}
+.work-description {
+  margin: 0;
+
+  color: #a8a8a8;
+  font-size: 12px;
+  line-height: 15px;
+}
+.margin-t {
+  margin: 0 0 10px 0;
+
+  font-weight: 600;
+  font-size: 13px;
+}
+.university {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.grey {
+  color: grey;
+}
